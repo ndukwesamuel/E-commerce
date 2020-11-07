@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '8wfbzhk7gd2+mb^*rt#2e74z6lk_s*lcvwk4ci*%xuxw9zrz_f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shopmur.herokuapp.com',  '127.0.0.1']
 
 
 # Application definition
